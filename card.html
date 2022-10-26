@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+body{
+background:linear-gradient(45deg,#1c92d2,#f2fcfe);
+background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.card{
+width:300px;
+height:450px;
+box-shadow:0 0 10px 0 black;
+margin:100px auto;
+position:relative;
+border-radius:10px;
+overflow:hidden;
+}
+.card h3{
+opacity:0.5;
+display:block;	
+color:white;
+text-align:center;
+position:relative;
+bottom:55%;
+transition:all 1s;
+}
+
+.card:hover h3{
+display:none;
+}
+.card img{
+width:inherit;
+height:inherit;
+background-size:cover;
+transition:all 1s;
+}
+.card p{
+text-align:center;
+color:white;
+bottom:-30%;
+position:absolute;
+transition:all 1s;
+}
+.card:hover p{
+bottom:0;
+}
+
+</style>
+</head>
+<body>
+<div class="card">
+<img src="cardimg.jpg">
+<h3>HOVER HERE</h3>
+<p>A galaxy is a gravitationally bound system of stars, stellar remnants, interstellar gas, dust, and dark matter. The word is derived from the Greek galaxias, literally 'milky', a reference to the Milky Way galaxy that contains the Solar System</p>
+</div>
+</body>
+</html>
